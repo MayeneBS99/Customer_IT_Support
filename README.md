@@ -1,5 +1,5 @@
 # Customer_IT_Support
-Analyze IT support tickets using LLMs Models - with Chatbot response generation
+Analyze IT support tickets using LLMs Models 
 
 This project aims to help IT members to handle customer's request in leverage 
 NLP and LLMs tools. It will be divided into the followings parts :
@@ -8,10 +8,20 @@ NLP and LLMs tools. It will be divided into the followings parts :
 basic cleaning and translation into one unique language : english 
 with NLLB
 
-# 2-) Text summary 
+# 2-) Main Tasks
 
-# 3) Classification using fine-tuned LLMs models
+## 2-1/ Text Summary with T-5 Model
 
-# 4-) Chat-bot set up
+## 2-2/ Text classification with BERT and PyTorch
 
-# 5-) Streamlit deployment
+For this task we are going to fine-tune the BERT model with our data in order
+to predict 2 elements :
+-< The type of the request from the customer
+-< The departement concerned by the message 
+
+# 3-) Streamlit deployment
+
+# State of the Project
+
+Actually we are working on the classification part
+If you have any questions or suggestions, feel free to reach out : Mayene2212@gmail.com :-)
