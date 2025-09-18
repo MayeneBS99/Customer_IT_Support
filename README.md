@@ -1,8 +1,18 @@
-# Customer_IT_Support
-Analyze IT support tickets using LLMs Models 
+# Customer IT Support
 
-This project aims to help IT members to handle customer's request in leverage 
-NLP and LLMs tools. It will be divided into the followings parts :
+![Intro](images/image_2.webp)
+
+The objective of this project is to enhance the customer request management process by leveraging Natural Language Processing (NLP) and Large Language Models (LLMs). The system is designed to translate, summarize, and classify incoming requests to ensure they are routed to the appropriate department. This will significantly improve the efficiency of the client-facing teams and enhance the company's operational performance.
+
+Tools and Technologies  : 
+
+>- Python (Pandas, Scikit-learn, PyTorch)
+>- LLMs  (NLLB, T-5, BERT) via Hugging Face
+>- Git for version control; 
+
+The dataset used comes from kaggle.
+
+The project will be divided into the followings parts :
 
 # 1-) Data preprocessing
 basic cleaning and translation into one unique language : english 
